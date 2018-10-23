@@ -3,13 +3,14 @@
 Getting Started
 1. git clone https://github.com/williamrmyers/reddit-messager
 2. pip install praw
-3. Create a file in the root directory called `config.py` with the below contents:
+3. Create a 'script' reddit App at. https://www.reddit.com/prefs/apps/
+4. Create a file in the root directory called `config.py` with the below contents:
 
 ```
-client_id=''
-client_secret=''
-user_agent=''
-username=''
+client_id='' #App ID
+client_secret='' #App Secret
+user_agent='' #Name your app
+username='' #reddit username
 password=''
 ```
 
